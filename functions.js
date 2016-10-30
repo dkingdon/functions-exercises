@@ -90,3 +90,29 @@ var result = countVowel('stealing');
 console.log(result);
 
 // -------- Assignment 8: Vowel Count -----------------------------------
+function findWdi(arr){
+    for (var i = 0; i < arr.length; i++){
+        if (arr[i] === 'wdi') {
+            return true;
+        }
+    }
+    return false;
+}
+findWdi([9,'Bart Simpson', true, 'wdi'])
+
+// findWdi(['a','b','c'])
+
+// -------- Assignment 9: VBuild an ASCII Triangle -----------------------
+
+/* Had to look at the solution for this, it had me stumpped. Makes sencse now that i see it.*/
+function printTriangle(length){
+        for (var i = 0; i < length; i++){
+            var row = ''
+                for (var t = 0; t <= i; t++){
+                    row += '*';
+                }
+            console.log(row);
+        }
+}
+
+printTriangle(10);
