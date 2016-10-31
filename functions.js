@@ -89,7 +89,7 @@ function countVowel(word){
 var result = countVowel('stealing');
 console.log(result);
 
-// -------- Assignment 8: Vowel Count -----------------------------------
+// -------- Assignment 8: Does the array contain "wdi" -------------------
 function findWdi(arr){
     for (var i = 0; i < arr.length; i++){
         if (arr[i] === 'wdi') {
